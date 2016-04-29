@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189EC8E61CD3384400A40E33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EC8E51CD3384400A40E33 /* main.m */; };
+		189EC8E91CD3384400A40E33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EC8E81CD3384400A40E33 /* AppDelegate.m */; };
+		189EC8EC1CD3384400A40E33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EC8EB1CD3384400A40E33 /* ViewController.m */; };
+		189EC8EF1CD3384400A40E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189EC8ED1CD3384400A40E33 /* Main.storyboard */; };
+		189EC8F11CD3384400A40E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189EC8F01CD3384400A40E33 /* Assets.xcassets */; };
+		189EC8F41CD3384400A40E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189EC8F21CD3384400A40E33 /* LaunchScreen.storyboard */; };
+		189EC8FF1CD3384500A40E33 /* ParralaxDetailViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EC8FE1CD3384500A40E33 /* ParralaxDetailViewTests.m */; };
+		189EC90A1CD3384500A40E33 /* ParralaxDetailViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EC9091CD3384500A40E33 /* ParralaxDetailViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		189EC8FB1CD3384500A40E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189EC8D91CD3384400A40E33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189EC8E01CD3384400A40E33;
+			remoteInfo = ParralaxDetailView;
+		};
+		189EC9061CD3384500A40E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189EC8D91CD3384400A40E33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189EC8E01CD3384400A40E33;
+			remoteInfo = ParralaxDetailView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189EC8E11CD3384400A40E33 /* ParralaxDetailView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParralaxDetailView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189EC8E51CD3384400A40E33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		189EC8E71CD3384400A40E33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		189EC8E81CD3384400A40E33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		189EC8EA1CD3384400A40E33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		189EC8EB1CD3384400A40E33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		189EC8EE1CD3384400A40E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189EC8F01CD3384400A40E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189EC8F31CD3384400A40E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189EC8F51CD3384400A40E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189EC8FA1CD3384500A40E33 /* ParralaxDetailViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParralaxDetailViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189EC8FE1CD3384500A40E33 /* ParralaxDetailViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParralaxDetailViewTests.m; sourceTree = "<group>"; };
+		189EC9001CD3384500A40E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189EC9051CD3384500A40E33 /* ParralaxDetailViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParralaxDetailViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189EC9091CD3384500A40E33 /* ParralaxDetailViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParralaxDetailViewUITests.m; sourceTree = "<group>"; };
+		189EC90B1CD3384500A40E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189EC8DE1CD3384400A40E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189EC8F71CD3384500A40E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189EC9021CD3384500A40E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189EC8D81CD3384400A40E33 = {
+			isa = PBXGroup;
+			children = (
+				189EC8E31CD3384400A40E33 /* ParralaxDetailView */,
+				189EC8FD1CD3384500A40E33 /* ParralaxDetailViewTests */,
+				189EC9081CD3384500A40E33 /* ParralaxDetailViewUITests */,
+				189EC8E21CD3384400A40E33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189EC8E21CD3384400A40E33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189EC8E11CD3384400A40E33 /* ParralaxDetailView.app */,
+				189EC8FA1CD3384500A40E33 /* ParralaxDetailViewTests.xctest */,
+				189EC9051CD3384500A40E33 /* ParralaxDetailViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189EC8E31CD3384400A40E33 /* ParralaxDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				189EC8E71CD3384400A40E33 /* AppDelegate.h */,
+				189EC8E81CD3384400A40E33 /* AppDelegate.m */,
+				189EC8EA1CD3384400A40E33 /* ViewController.h */,
+				189EC8EB1CD3384400A40E33 /* ViewController.m */,
+				189EC8ED1CD3384400A40E33 /* Main.storyboard */,
+				189EC8F01CD3384400A40E33 /* Assets.xcassets */,
+				189EC8F21CD3384400A40E33 /* LaunchScreen.storyboard */,
+				189EC8F51CD3384400A40E33 /* Info.plist */,
+				189EC8E41CD3384400A40E33 /* Supporting Files */,
+			);
+			path = ParralaxDetailView;
+			sourceTree = "<group>";
+		};
+		189EC8E41CD3384400A40E33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				189EC8E51CD3384400A40E33 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		189EC8FD1CD3384500A40E33 /* ParralaxDetailViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				189EC8FE1CD3384500A40E33 /* ParralaxDetailViewTests.m */,
+				189EC9001CD3384500A40E33 /* Info.plist */,
+			);
+			path = ParralaxDetailViewTests;
+			sourceTree = "<group>";
+		};
+		189EC9081CD3384500A40E33 /* ParralaxDetailViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				189EC9091CD3384500A40E33 /* ParralaxDetailViewUITests.m */,
+				189EC90B1CD3384500A40E33 /* Info.plist */,
+			);
+			path = ParralaxDetailViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189EC8E01CD3384400A40E33 /* ParralaxDetailView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189EC90E1CD3384500A40E33 /* Build configuration list for PBXNativeTarget "ParralaxDetailView" */;
+			buildPhases = (
+				189EC8DD1CD3384400A40E33 /* Sources */,
+				189EC8DE1CD3384400A40E33 /* Frameworks */,
+				189EC8DF1CD3384400A40E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParralaxDetailView;
+			productName = ParralaxDetailView;
+			productReference = 189EC8E11CD3384400A40E33 /* ParralaxDetailView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189EC8F91CD3384500A40E33 /* ParralaxDetailViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189EC9111CD3384500A40E33 /* Build configuration list for PBXNativeTarget "ParralaxDetailViewTests" */;
+			buildPhases = (
+				189EC8F61CD3384500A40E33 /* Sources */,
+				189EC8F71CD3384500A40E33 /* Frameworks */,
+				189EC8F81CD3384500A40E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189EC8FC1CD3384500A40E33 /* PBXTargetDependency */,
+			);
+			name = ParralaxDetailViewTests;
+			productName = ParralaxDetailViewTests;
+			productReference = 189EC8FA1CD3384500A40E33 /* ParralaxDetailViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		189EC9041CD3384500A40E33 /* ParralaxDetailViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189EC9141CD3384500A40E33 /* Build configuration list for PBXNativeTarget "ParralaxDetailViewUITests" */;
+			buildPhases = (
+				189EC9011CD3384500A40E33 /* Sources */,
+				189EC9021CD3384500A40E33 /* Frameworks */,
+				189EC9031CD3384500A40E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189EC9071CD3384500A40E33 /* PBXTargetDependency */,
+			);
+			name = ParralaxDetailViewUITests;
+			productName = ParralaxDetailViewUITests;
+			productReference = 189EC9051CD3384500A40E33 /* ParralaxDetailViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189EC8D91CD3384400A40E33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ClickApps;
+				TargetAttributes = {
+					189EC8E01CD3384400A40E33 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					189EC8F91CD3384500A40E33 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 189EC8E01CD3384400A40E33;
+					};
+					189EC9041CD3384500A40E33 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 189EC8E01CD3384400A40E33;
+					};
+				};
+			};
+			buildConfigurationList = 189EC8DC1CD3384400A40E33 /* Build configuration list for PBXProject "ParralaxDetailView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189EC8D81CD3384400A40E33;
+			productRefGroup = 189EC8E21CD3384400A40E33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189EC8E01CD3384400A40E33 /* ParralaxDetailView */,
+				189EC8F91CD3384500A40E33 /* ParralaxDetailViewTests */,
+				189EC9041CD3384500A40E33 /* ParralaxDetailViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189EC8DF1CD3384400A40E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189EC8F41CD3384400A40E33 /* LaunchScreen.storyboard in Resources */,
+				189EC8F11CD3384400A40E33 /* Assets.xcassets in Resources */,
+				189EC8EF1CD3384400A40E33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189EC8F81CD3384500A40E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189EC9031CD3384500A40E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189EC8DD1CD3384400A40E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189EC8EC1CD3384400A40E33 /* ViewController.m in Sources */,
+				189EC8E91CD3384400A40E33 /* AppDelegate.m in Sources */,
+				189EC8E61CD3384400A40E33 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189EC8F61CD3384500A40E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189EC8FF1CD3384500A40E33 /* ParralaxDetailViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189EC9011CD3384500A40E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189EC90A1CD3384500A40E33 /* ParralaxDetailViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189EC8FC1CD3384500A40E33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189EC8E01CD3384400A40E33 /* ParralaxDetailView */;
+			targetProxy = 189EC8FB1CD3384500A40E33 /* PBXContainerItemProxy */;
+		};
+		189EC9071CD3384500A40E33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189EC8E01CD3384400A40E33 /* ParralaxDetailView */;
+			targetProxy = 189EC9061CD3384500A40E33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		189EC8ED1CD3384400A40E33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189EC8EE1CD3384400A40E33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189EC8F21CD3384400A40E33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189EC8F31CD3384400A40E33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189EC90C1CD3384500A40E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		189EC90D1CD3384500A40E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189EC90F1CD3384500A40E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParralaxDetailView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickapps.ParralaxDetailView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		189EC9101CD3384500A40E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParralaxDetailView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickapps.ParralaxDetailView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		189EC9121CD3384500A40E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParralaxDetailViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickapps.ParralaxDetailViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParralaxDetailView.app/ParralaxDetailView";
+			};
+			name = Debug;
+		};
+		189EC9131CD3384500A40E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParralaxDetailViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickapps.ParralaxDetailViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParralaxDetailView.app/ParralaxDetailView";
+			};
+			name = Release;
+		};
+		189EC9151CD3384500A40E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParralaxDetailViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickapps.ParralaxDetailViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParralaxDetailView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		189EC9161CD3384500A40E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParralaxDetailViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickapps.ParralaxDetailViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParralaxDetailView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189EC8DC1CD3384400A40E33 /* Build configuration list for PBXProject "ParralaxDetailView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189EC90C1CD3384500A40E33 /* Debug */,
+				189EC90D1CD3384500A40E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189EC90E1CD3384500A40E33 /* Build configuration list for PBXNativeTarget "ParralaxDetailView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189EC90F1CD3384500A40E33 /* Debug */,
+				189EC9101CD3384500A40E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		189EC9111CD3384500A40E33 /* Build configuration list for PBXNativeTarget "ParralaxDetailViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189EC9121CD3384500A40E33 /* Debug */,
+				189EC9131CD3384500A40E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		189EC9141CD3384500A40E33 /* Build configuration list for PBXNativeTarget "ParralaxDetailViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189EC9151CD3384500A40E33 /* Debug */,
+				189EC9161CD3384500A40E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189EC8D91CD3384400A40E33 /* Project object */;
+}
