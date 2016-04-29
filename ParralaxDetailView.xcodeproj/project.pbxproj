@@ -15,6 +15,9 @@
 		189EC8F41CD3384400A40E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189EC8F21CD3384400A40E33 /* LaunchScreen.storyboard */; };
 		189EC8FF1CD3384500A40E33 /* ParralaxDetailViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EC8FE1CD3384500A40E33 /* ParralaxDetailViewTests.m */; };
 		189EC90A1CD3384500A40E33 /* ParralaxDetailViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EC9091CD3384500A40E33 /* ParralaxDetailViewUITests.m */; };
+		189EC91D1CD340C600A40E33 /* 8035.png in Resources */ = {isa = PBXBuildFile; fileRef = 189EC91C1CD340C600A40E33 /* 8035.png */; };
+		189EC9231CD371B800A40E33 /* ParallaxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EC9211CD371B800A40E33 /* ParallaxViewController.m */; };
+		189EC9241CD371B800A40E33 /* ParallaxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189EC9221CD371B800A40E33 /* ParallaxViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		189EC9051CD3384500A40E33 /* ParralaxDetailViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParralaxDetailViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		189EC9091CD3384500A40E33 /* ParralaxDetailViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParralaxDetailViewUITests.m; sourceTree = "<group>"; };
 		189EC90B1CD3384500A40E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189EC91C1CD340C600A40E33 /* 8035.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8035.png; sourceTree = "<group>"; };
+		189EC9201CD371B800A40E33 /* ParallaxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxViewController.h; sourceTree = "<group>"; };
+		189EC9211CD371B800A40E33 /* ParallaxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxViewController.m; sourceTree = "<group>"; };
+		189EC9221CD371B800A40E33 /* ParallaxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParallaxViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,8 @@
 		189EC8E31CD3384400A40E33 /* ParralaxDetailView */ = {
 			isa = PBXGroup;
 			children = (
+				189EC91F1CD371B800A40E33 /* ParallaxViewController */,
+				189EC91C1CD340C600A40E33 /* 8035.png */,
 				189EC8E71CD3384400A40E33 /* AppDelegate.h */,
 				189EC8E81CD3384400A40E33 /* AppDelegate.m */,
 				189EC8EA1CD3384400A40E33 /* ViewController.h */,
@@ -138,6 +147,16 @@
 				189EC90B1CD3384500A40E33 /* Info.plist */,
 			);
 			path = ParralaxDetailViewUITests;
+			sourceTree = "<group>";
+		};
+		189EC91F1CD371B800A40E33 /* ParallaxViewController */ = {
+			isa = PBXGroup;
+			children = (
+				189EC9201CD371B800A40E33 /* ParallaxViewController.h */,
+				189EC9211CD371B800A40E33 /* ParallaxViewController.m */,
+				189EC9221CD371B800A40E33 /* ParallaxViewController.xib */,
+			);
+			path = ParallaxViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +264,8 @@
 			files = (
 				189EC8F41CD3384400A40E33 /* LaunchScreen.storyboard in Resources */,
 				189EC8F11CD3384400A40E33 /* Assets.xcassets in Resources */,
+				189EC91D1CD340C600A40E33 /* 8035.png in Resources */,
+				189EC9241CD371B800A40E33 /* ParallaxViewController.xib in Resources */,
 				189EC8EF1CD3384400A40E33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +294,7 @@
 				189EC8EC1CD3384400A40E33 /* ViewController.m in Sources */,
 				189EC8E91CD3384400A40E33 /* AppDelegate.m in Sources */,
 				189EC8E61CD3384400A40E33 /* main.m in Sources */,
+				189EC9231CD371B800A40E33 /* ParallaxViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +437,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clickapps.ParralaxDetailView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -426,6 +449,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clickapps.ParralaxDetailView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -496,6 +520,7 @@
 				189EC9101CD3384500A40E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		189EC9111CD3384500A40E33 /* Build configuration list for PBXNativeTarget "ParralaxDetailViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +529,7 @@
 				189EC9131CD3384500A40E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		189EC9141CD3384500A40E33 /* Build configuration list for PBXNativeTarget "ParralaxDetailViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +538,7 @@
 				189EC9161CD3384500A40E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

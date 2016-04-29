@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ParallaxViewController">
+            <connections>
+                <outlet property="bottomScroll" destination="gu4-0t-jA0" id="x1o-wS-C4Q"/>
+                <outlet property="bottomViewTopConstraint" destination="Rao-RZ-ng9" id="k7S-Bw-LZp"/>
+                <outlet property="contentView" destination="yZI-mc-ump" id="7js-u5-F7E"/>
+                <outlet property="contentViewHeight" destination="PRr-uC-apv" id="ktc-8q-pQz"/>
+                <outlet property="headerImageViewHeight" destination="jYL-Mq-5mQ" id="Af9-PD-N8g"/>
+                <outlet property="topScroll" destination="FwZ-g7-1Sa" id="DHC-pB-0fR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FwZ-g7-1Sa">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UTS-zh-WqW">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8035.png" translatesAutoresizingMaskIntoConstraints="NO" id="OnB-eT-ybV">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="300" id="jYL-Mq-5mQ"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="OnB-eT-ybV" firstAttribute="leading" secondItem="UTS-zh-WqW" secondAttribute="leading" id="3Tt-xd-WNk"/>
+                                <constraint firstItem="OnB-eT-ybV" firstAttribute="top" secondItem="UTS-zh-WqW" secondAttribute="top" id="MUA-kV-bf5"/>
+                                <constraint firstAttribute="height" constant="600" id="S23-T8-fdS"/>
+                                <constraint firstAttribute="trailing" secondItem="OnB-eT-ybV" secondAttribute="trailing" id="YXO-MS-vSv"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="UTS-zh-WqW" firstAttribute="centerX" secondItem="FwZ-g7-1Sa" secondAttribute="centerX" id="NuG-cY-5J7"/>
+                        <constraint firstItem="UTS-zh-WqW" firstAttribute="top" secondItem="FwZ-g7-1Sa" secondAttribute="top" id="aRC-Xj-IVX"/>
+                        <constraint firstAttribute="trailing" secondItem="UTS-zh-WqW" secondAttribute="trailing" id="afR-BQ-nCd"/>
+                        <constraint firstAttribute="bottom" secondItem="UTS-zh-WqW" secondAttribute="bottom" id="fKP-tS-v7d"/>
+                        <constraint firstItem="UTS-zh-WqW" firstAttribute="leading" secondItem="FwZ-g7-1Sa" secondAttribute="leading" id="lNs-cI-31H"/>
+                    </constraints>
+                </scrollView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gu4-0t-jA0">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yZI-mc-ump">
+                            <rect key="frame" x="0.0" y="300" width="600" height="300"/>
+                            <color key="backgroundColor" red="0.5568627451" green="0.76078431369999999" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="300" id="PRr-uC-apv"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="yZI-mc-ump" firstAttribute="centerX" secondItem="gu4-0t-jA0" secondAttribute="centerX" id="GMr-vU-Wff"/>
+                        <constraint firstItem="yZI-mc-ump" firstAttribute="top" secondItem="gu4-0t-jA0" secondAttribute="top" constant="300" id="Rao-RZ-ng9"/>
+                        <constraint firstAttribute="trailing" secondItem="yZI-mc-ump" secondAttribute="trailing" id="b6M-hM-RQO"/>
+                        <constraint firstAttribute="bottom" secondItem="yZI-mc-ump" secondAttribute="bottom" id="jsK-bS-CEu"/>
+                        <constraint firstItem="yZI-mc-ump" firstAttribute="leading" secondItem="gu4-0t-jA0" secondAttribute="leading" id="jxt-46-PdX"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="FwZ-g7-1Sa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Cf3-P3-nFs"/>
+                <constraint firstItem="gu4-0t-jA0" firstAttribute="top" secondItem="FwZ-g7-1Sa" secondAttribute="top" id="FCz-3O-gGG"/>
+                <constraint firstAttribute="bottom" secondItem="FwZ-g7-1Sa" secondAttribute="bottom" id="Re9-P5-gdo"/>
+                <constraint firstItem="gu4-0t-jA0" firstAttribute="trailing" secondItem="FwZ-g7-1Sa" secondAttribute="trailing" id="Sbd-Tr-TdP"/>
+                <constraint firstItem="FwZ-g7-1Sa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Zir-bw-9oZ"/>
+                <constraint firstItem="gu4-0t-jA0" firstAttribute="leading" secondItem="FwZ-g7-1Sa" secondAttribute="leading" id="aZP-6e-RMl"/>
+                <constraint firstItem="gu4-0t-jA0" firstAttribute="bottom" secondItem="FwZ-g7-1Sa" secondAttribute="bottom" id="ePZ-b6-IaI"/>
+                <constraint firstItem="yZI-mc-ump" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.5" id="luD-lf-QpL"/>
+                <constraint firstAttribute="trailing" secondItem="FwZ-g7-1Sa" secondAttribute="trailing" id="v1e-zL-fl5"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="luD-lf-QpL"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="287" y="420"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="8035.png" width="449" height="721"/>
+    </resources>
+</document>

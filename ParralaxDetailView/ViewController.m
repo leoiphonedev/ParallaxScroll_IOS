@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.headerImageViewHeight.constant = 250;
+    [self adjustContentViewHeight];
+    self.contentViewHeight.constant = [UIScreen mainScreen].bounds.size.height;
+
+    UILabel *lable = [[UILabel alloc]initWithFrame:CGRectMake(0, 10, 180, 21)];
+    lable.text = @"Parallax View";
+    [self.contentView addSubview:lable];
 }
 
 - (void)didReceiveMemoryWarning {

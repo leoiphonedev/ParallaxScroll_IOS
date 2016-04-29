@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ParallaxViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : ParallaxViewController
 
 
 @end
