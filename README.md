@@ -2,9 +2,10 @@
 ParallaxScroll_IOS contains ParallaxViewController which  is a subclass of UIViewController that create a nice paralax scroll view with top header is an image and bottom is content view to add post contnet.
 
 Features: 
-1) Easily modifed height of the header image.
-2) Easily modify height of the conent view.
-3) Highly customizable.
+
+1) Highly customizable.
+
+2) Drag and drop
 
 
 
