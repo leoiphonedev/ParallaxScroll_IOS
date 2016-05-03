@@ -12,6 +12,7 @@
 
 @interface ParallaxViewController ()<UIScrollViewDelegate>
 
+
 /**
  @property bottomScroll
  @description UIScrollView place at bottom of View holding labels and text and other controls one want to place on it
