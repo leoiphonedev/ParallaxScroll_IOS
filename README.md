@@ -2,6 +2,9 @@
 
 ![alt tag](http://i.imgur.com/0IRr38z.gif)
 
+![alt tag](http://i.imgur.com/xmDiEJr.jpg)  
+
+
 
 ParallaxScroll_IOS contains ParallaxViewController which  is a subclass of UIViewController that create a nice paralax scroll view with top header is an image and bottom is content view to add post content.
 
