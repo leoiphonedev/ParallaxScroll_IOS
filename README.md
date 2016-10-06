@@ -16,7 +16,7 @@ ParallaxScroll_IOS contains ParallaxViewController which  is a subclass of UIVie
 
 <b>For use instructions visit below link</b>
 
-http://www.amaniphoneblog.com/2016/04/How-to-create-parallax-scrolling-effect-in-ios-sdk.html
+http://www.iostutorialjunction.com/2016/04/How-to-create-parallax-scrolling-effect-in-ios-sdk.html
 
 
 
